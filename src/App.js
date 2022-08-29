@@ -71,19 +71,16 @@ const checkScore = () => {
   return (<h1>Your Total Score is: {score}</h1>);
 }
 return (
-  // <Router>
-    <>
-    {/* // <Router> */}
-    <Navbar /><div className='main_box container-fluid'>
+     <Router>
+      <Navbar />
+      <div className='main_box container-fluid'>
       <LeftPanel />
-      <QuizPanel count={count} fetchQuestion={quest} count_length={count_length} score={updateScore} inc={incrementQuest} dec={decrementQuest} />
-      <Check checkScore={checkScore} />
-      {/* <Routes>
+      <Routes>
       <Route path='/' element={<QuizPanel count = {count} fetchQuestion = {quest} count_length={count_length} score={updateScore} inc={incrementQuest} dec={decrementQuest} />} />
       <Route path="Check" element={<Check checkScore={checkScore} />} />
-    </Routes> */}
-    </div></>
-  // </Router>
+    </Routes>
+    </div>
+  </Router>
 );
 }
 
