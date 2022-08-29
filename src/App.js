@@ -6,7 +6,7 @@ import LeftPanel from './LeftPanel';
 import QuizPanel from './QuizPanel';
 import Check from './Check';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
