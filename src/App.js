@@ -6,7 +6,7 @@ import LeftPanel from './LeftPanel';
 import QuizPanel from './QuizPanel';
 import Check from './Check';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -71,7 +71,7 @@ const checkScore = () => {
   return (<h1>Your Total Score is: {score}</h1>);
 }
 return (
-  <Router basename='/'>
+  <Router>
     <Navbar />
     <div className='main_box container-fluid'>
       <LeftPanel />
