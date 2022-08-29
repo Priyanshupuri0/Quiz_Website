@@ -1,12 +1,7 @@
 import React from 'react'
 
 export default function QuizPanel(props) {
-    const prevQuestion = () => {
-        console.log('Previous Question Please!');
-    }
-    const nextQuestion = () => {
-        console.log('Next Question Please!');
-    }
+    
 	const checkAnswer= (val) =>{
 		if(props.fetchQuestion[props.count][`option${val+1}`]=== props.fetchQuestion[props.count].answer)
 		{
@@ -14,7 +9,7 @@ export default function QuizPanel(props) {
 			document.getElementById('quiz-box1').style.animation = "success 1s 3";
 			for(let i=0; i<4; i++)
 			{
-				if(i != val)
+				if(i !== val)
 				document.getElementById(`opt${i}`).style.border = "2px solid red";
 				document.getElementById(`opt${i}`).disabled = true;
 			}
