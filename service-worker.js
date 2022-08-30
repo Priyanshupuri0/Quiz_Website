@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Priyanshupuri0/Quiz_Site/precache-manifest.5ea6d210d356cd78a07211ba2f95eaa5.js"
+  "/Quiz_Site/precache-manifest.7314a9698559df718e99fe6b24074ac4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Priyanshupuri0/Quiz_Site/index.html", {
+workbox.routing.registerNavigationRoute("/Quiz_Site/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
