@@ -71,7 +71,7 @@ const checkScore = () => {
   return (<h1>Your Total Score is: {score}</h1>);
 }
 return (
-     <Router>
+     <Router basename='/'>
       <Navbar />
       <div className='main_box container-fluid'>
       <LeftPanel />
