@@ -71,7 +71,7 @@ const checkScore = () => {
   return (<h1>Your Total Score is: {score}</h1>);
 }
 return (
-     <Router basename={process.env.PUBLIC_URL}>
+     <Router basename='/'>
       <Navbar />
       <div className='main_box container-fluid'>
       <LeftPanel />
