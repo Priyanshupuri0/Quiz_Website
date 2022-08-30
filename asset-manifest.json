@@ -1,16 +1,16 @@
 {
   "main.css": "/Quiz_Site/static/css/main.8950c60d.chunk.css",
-  "main.js": "/Quiz_Site/static/js/main.69495c0a.chunk.js",
-  "main.js.map": "/Quiz_Site/static/js/main.69495c0a.chunk.js.map",
+  "main.js": "/Quiz_Site/static/js/main.84b0d911.chunk.js",
+  "main.js.map": "/Quiz_Site/static/js/main.84b0d911.chunk.js.map",
   "static/js/1.206e060b.chunk.js": "/Quiz_Site/static/js/1.206e060b.chunk.js",
   "static/js/1.206e060b.chunk.js.map": "/Quiz_Site/static/js/1.206e060b.chunk.js.map",
-  "static/js/2.0a977aef.chunk.js": "/Quiz_Site/static/js/2.0a977aef.chunk.js",
-  "static/js/2.0a977aef.chunk.js.map": "/Quiz_Site/static/js/2.0a977aef.chunk.js.map",
+  "static/js/2.1b5b3317.chunk.js": "/Quiz_Site/static/js/2.1b5b3317.chunk.js",
+  "static/js/2.1b5b3317.chunk.js.map": "/Quiz_Site/static/js/2.1b5b3317.chunk.js.map",
   "runtime~main.js": "/Quiz_Site/static/js/runtime~main.b520080a.js",
   "runtime~main.js.map": "/Quiz_Site/static/js/runtime~main.b520080a.js.map",
   "static/media/design.css": "/Quiz_Site/static/media/background.2c6b7849.jpg",
   "static/css/main.8950c60d.chunk.css.map": "/Quiz_Site/static/css/main.8950c60d.chunk.css.map",
   "index.html": "/Quiz_Site/index.html",
-  "precache-manifest.abc1d33add6811160911140e13d7c181.js": "/Quiz_Site/precache-manifest.abc1d33add6811160911140e13d7c181.js",
+  "precache-manifest.1d983dfa405d833084d684896acc240f.js": "/Quiz_Site/precache-manifest.1d983dfa405d833084d684896acc240f.js",
   "service-worker.js": "/Quiz_Site/service-worker.js"
 }
