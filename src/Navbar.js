@@ -6,7 +6,7 @@ export default function Navbar() {
     }
     return (
         <div>
-            <nav className="navbar navbar-expand-lg sticky-top bg-light shadow p-3 mb-1 bg-white rounded">
+            <nav className="navbar navbar-expand-lg bg-light shadow p-3 mb-1 bg-white rounded">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
                         <strong style={{fontSize: "larger"}}><i className="fa-brands fa-quinscape mx-2"></i>Quiz</strong>

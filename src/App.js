@@ -14,28 +14,28 @@ function App() {
   const [count, setCount] = useState(0);
   const quest = [
     {
-    question: "What is the capital of India?",
-    option1: "Mumbai",
-    option2: "Kolkata",
-    option3: "New Delhi",
-    option4: "Lucknow",
-    answer: "New Delhi"
+    question: "Knot is a unit of _________?",
+    option1: "Speed",
+    option2: "Distance",
+    option3: "Depth",
+    option4: "Acceleration",
+    answer: "Speed"
   },
   {
-    question: "What are you doing?",
-    option1: 1,
-    option2: 2,
-    option3: 3,
-    option4: 4,
-    answer: 2
+    question: "Which Article is related to 'Abolition of Untouchability'?",
+    option1: "Article 20",
+    option2: "Article 19",
+    option3: "Article 18",
+    option4: "Article 17",
+    answer: "Article 17"
   },
   {
-    question: "Are you there?",
-    option1: 5,
-    option2: 6,
-    option3: 7,
-    option4: 8,
-    answer: 7
+    question: "English is the official language of _________.",
+    option1: "Chandigarh",
+    option2: "Dadra and Nagar Haveli",
+    option3: "Daman and Diu",
+    option4: "Delhi",
+    answer: "Chandigarh"
   }
   ]
 const incrementQuest = () => {

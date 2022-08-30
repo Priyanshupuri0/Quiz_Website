@@ -36,7 +36,7 @@ export default function QuizPanel(props) {
 					<button className="btn btn-light rounded-pill" id="opt2" onClick={() => checkAnswer(2)}>{props.fetchQuestion[`${props.count}`].option3}</button>
 					<button className="btn btn-light rounded-pill" id="opt3" onClick={() => checkAnswer(3)}>{props.fetchQuestion[`${props.count}`].option4}</button>
 					</div>
-					<div className="question-number" style={{fontSize: "40px", position: "relative", top: "30%"}}>
+					<div className="question-number">
 						<i className="fa-solid fa-angle-left" style={{cursor: "pointer"}} onClick={props.dec}></i> {props.count_length[0]} / {props.count_length[1]} <i className="fa-solid fa-angle-right" style={{cursor: "pointer"}} onClick={props.inc}></i>
 					</div>
 				</div>
