@@ -6,7 +6,7 @@ export default function QuizPanel(props) {
 		if(props.fetchQuestion[props.count][`option${val+1}`]=== props.fetchQuestion[props.count].answer)
 		{
 			document.getElementById(`opt${val}`).style.border = '2px solid green';
-			document.getElementById('quiz-box1').style.animation = "success 1s 3";
+			document.getElementById('quiz-box1').style.animation = "success 1s ease-in-out 1";
 			for(let i=0; i<4; i++)
 			{
 				if(i !== val)
@@ -17,7 +17,7 @@ export default function QuizPanel(props) {
 		}
 		else {
 			document.getElementById(`opt${val}`).style.border = "2px solid red";
-			document.getElementById('quiz-box2').style.animation = "failure 1s 3";
+			document.getElementById('quiz-box2').style.animation = "failure 1s ease-in-out 1";
 			for(let i=0; i<4; i++)
 			document.getElementById(`opt${i}`).disabled = true;
 			props.score(false);
