@@ -1,7 +1,7 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom';
 export default function QuizPanel(props) {
-    
+    const navigate = useNavigate();
 	const checkAnswer= (val) =>{
 		if(props.fetchQuestion[props.count][`option${val+1}`]=== props.fetchQuestion[props.count].answer)
 		{
@@ -23,7 +23,9 @@ export default function QuizPanel(props) {
 			props.score(false);
 		}
 	}
-	
+		if(!props.questLeft) {
+			document.getElementsByClassName('question-number').innerHTML = `${navigate("/check")}`
+		}
     return (
         <>
             <div className="Quiz_panel bg-image">

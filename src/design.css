@@ -3,6 +3,10 @@
     padding: 0;
     user-select: none;
 }
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 .Left_panel > ul {
     list-style: none;
     font-size: calc(0.4rem + 1vw);
@@ -31,8 +35,6 @@ li.tab:hover {
     height: 100vh;
     width: 85vw;
     text-align: center;
-    overflow-y: hidden;
-
 }
 .Left_panel {
     height: 100vh;
