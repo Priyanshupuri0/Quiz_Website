@@ -73,7 +73,7 @@ li.tab:hover {
     flex-wrap: wrap;
     position: relative;
     top: 20%;
-    left: 20%;
+    left: 17%;
     width: 30vw;			
 }
 #opt1, #opt2, #opt3, #opt0 {
@@ -91,7 +91,7 @@ li.tab:hover {
     height: 60vh;
     background-color: lightgreen;
     border-radius: 50px;
-    left: 30%;
+    left: 30.3%;
     transform: rotate(2deg);
     top: 31%;
     z-index: 1;
@@ -124,6 +124,17 @@ li.tab:hover {
     font-weight: bold;
 }
 
+.showScore {
+    position: absolute;
+    top: 3vh;
+    left: 47vw;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.2;
+}
+.showScore:hover {
+    opacity: 1;
+}
 @keyframes success {
     0% { 
         transform: rotate(0deg); 

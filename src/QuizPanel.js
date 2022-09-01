@@ -1,7 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 export default function QuizPanel(props) {
-    const navigate = useNavigate();
 	const checkAnswer= (val) =>{
 		if(props.fetchQuestion[props.count][`option${val+1}`]=== props.fetchQuestion[props.count].answer)
 		{
@@ -21,16 +20,15 @@ export default function QuizPanel(props) {
 			for(let i=0; i<4; i++)
 			document.getElementById(`opt${i}`).disabled = true;
 			props.score(false);
+			}
 		}
-	}
-		if(!props.questLeft) {
-			document.getElementsByClassName('question-number').innerHTML = `${navigate("/check")}`
-		}
+
     return (
         <>
             <div className="Quiz_panel bg-image">
 				<h1 className="mt-1">Quiz Game</h1>
 				<div className="quiz-box mask">
+					<Link to = '/check' style={{color: "black"}}><i className="fa-solid fa-clipboard-check fa-lg showScore" id='showScore' title = 'Check Score'></i></Link>
 					<h2 className="question">{props.fetchQuestion[`${props.count}`].question}</h2>
 					<div className="option-box">
 					<button className="btn btn-light rounded-pill" id="opt0" onClick={() => checkAnswer(0)}>{props.fetchQuestion[`${props.count}`].option1}</button>

@@ -23,7 +23,7 @@ export default function Navbar() {
                                 <Link className="nav-link" to="/Check">Score</Link>
                             </li>
                             <li className="nav-item">
-                                <span className='nav-link' style={{cursor: "pointer"}} onClick={refreshSession}><i className="fa-solid fa-arrows-rotate"></i></span>
+                                <span className='nav-link' style={{cursor: "pointer"}} onClick={refreshSession}><i className="fa-solid fa-arrows-rotate" title='Refresh'></i></span>
                             </li>
                         </ul>
                     </div>

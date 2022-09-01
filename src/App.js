@@ -38,7 +38,6 @@ function App() {
     answer: "Chandigarh"
   }
   ]
-  const [questLeft,updatequestLeft] = useState(true);
 const incrementQuest = () => {
   if (count < quest.length - 1) {
     setCount(count + 1);
@@ -48,9 +47,6 @@ const incrementQuest = () => {
     }
     document.getElementById('quiz-box1').style.animation = "";
 		document.getElementById('quiz-box2').style.animation = "";
-  }
-  if(count === quest.length - 1) {
-    updatequestLeft(false);
   }
 }
 const decrementQuest = () => {
@@ -80,7 +76,7 @@ return (
       <div className='main_box container-fluid'>
       <LeftPanel />
       <Routes>
-      <Route path='/' element={<QuizPanel count = {count} fetchQuestion = {quest} count_length={count_length} questLeft = {questLeft} score={updateScore} inc={incrementQuest} dec={decrementQuest} />} />
+      <Route path='/' element={<QuizPanel count = {count} fetchQuestion = {quest} count_length={count_length} score={updateScore} inc={incrementQuest} dec={decrementQuest} />} />
       <Route path="Check" element={<Check checkScore={checkScore} />} />
     </Routes>
     </div>
