@@ -135,6 +135,7 @@ li.tab:hover {
 .showScore:hover {
     opacity: 1;
 }
+
 @keyframes success {
     0% { 
         transform: rotate(0deg); 
@@ -208,12 +209,20 @@ li.tab:hover {
     .question-number {
         font-size: 40px;
         top: 105%;
-        left: 27%;
+        left: 24%;
     }
     .Score_holder {
         width: 46vh;
         position: absolute;
         left: 1%;
         top: 40vh;
+    }
+    .showScore {
+        top: 1vh;
+        left: 70vw;
+    }
+    body {
+        overflow-y: visible;
+        overflow-x: visible;
     }
 }
