@@ -1,7 +1,7 @@
 {
   "main.css": "/Quiz_Website/static/css/main.f19b21e5.chunk.css",
-  "main.js": "/Quiz_Website/static/js/main.379b479b.chunk.js",
-  "main.js.map": "/Quiz_Website/static/js/main.379b479b.chunk.js.map",
+  "main.js": "/Quiz_Website/static/js/main.ff2ea3ff.chunk.js",
+  "main.js.map": "/Quiz_Website/static/js/main.ff2ea3ff.chunk.js.map",
   "static/js/1.206e060b.chunk.js": "/Quiz_Website/static/js/1.206e060b.chunk.js",
   "static/js/1.206e060b.chunk.js.map": "/Quiz_Website/static/js/1.206e060b.chunk.js.map",
   "static/js/2.5f2bc5e2.chunk.js": "/Quiz_Website/static/js/2.5f2bc5e2.chunk.js",
@@ -11,6 +11,6 @@
   "static/media/design.css": "/Quiz_Website/static/media/mobile_bg.f8cbdad4.jpg",
   "static/css/main.f19b21e5.chunk.css.map": "/Quiz_Website/static/css/main.f19b21e5.chunk.css.map",
   "index.html": "/Quiz_Website/index.html",
-  "precache-manifest.7fdcfc78a3e04a47d19dc8a5a5861194.js": "/Quiz_Website/precache-manifest.7fdcfc78a3e04a47d19dc8a5a5861194.js",
+  "precache-manifest.2357cf495d6aad86a7f57ba59db234b6.js": "/Quiz_Website/precache-manifest.2357cf495d6aad86a7f57ba59db234b6.js",
   "service-worker.js": "/Quiz_Website/service-worker.js"
 }
